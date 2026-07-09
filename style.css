@@ -117,6 +117,10 @@ img{
   justify-content: center;
   gap: 15px;
 }
+   body{
+       min-height: 100vh;
+   }
+   
 }
 .h{
   font-size: 30px;

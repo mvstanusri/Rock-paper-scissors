@@ -1,0 +1,110 @@
+body{
+   font-family: "Geist Pixel", sans-serif;
+   margin: 0;
+   
+  background-color: rgb(156, 213, 255);
+}
+img{
+  height: 150px;
+  width: 150px;
+}
+.game{
+ 
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sel{
+  border: 2px solid rgb(247, 248, 240);
+  background-color: white;
+  
+  
+}
+.btn{
+  display: flex;
+  gap:10px;
+  flex-wrap: wrap;
+  
+}
+.reset{
+  background-color: aliceblue;
+  border: none;
+  font-family: "Geist Pixel", sans-serif;
+  padding:15px 20px;
+  font-size: 20px;
+  
+  
+}
+.reset:hover{
+  background-color: rgb(224, 224, 224);
+}
+.sel:hover{
+  border:2px solid rgb(122, 170, 206);
+  background-color: rgb(251, 246, 240);
+}
+
+.result{
+  font-size: 25px;
+}
+.score{
+  font-size: 20px;
+}
+.start{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   height: 100vh;
+}
+
+.play{
+  color:black;
+  background-color: rgb(247, 248, 240);
+  border: none;
+  font-size: 30px;
+  font-family: "Geist Pixel", sans-serif;
+  padding:10px 30px;
+}
+.back{
+  height: 30px;
+  width: 30px;
+}
+.backcs{
+  display: flex;
+  flex-direction: row;
+}
+.pg1{
+  height: 300px;
+  width: 300px;
+}
+.play:hover{
+  background-color: rgb(224, 224, 224);
+}
+
+@media (max-width: 600px) {
+  .btn{
+    gap: 15px;
+  }
+
+  img{
+    height: 100px;
+    width: 100px;
+  }
+
+  h1{
+    font-size: 2rem;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .reset{
+    padding: 10px 15px;
+    font-size: medium;
+  }
+}
+.h{
+  font-size: 30px;
+}

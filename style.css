@@ -84,7 +84,14 @@ img{
   background-color: rgb(224, 224, 224);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
   .btn{
     gap: 15px;
   }
@@ -104,6 +111,12 @@ img{
     padding: 10px 15px;
     font-size: medium;
   }
+  .btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
 }
 .h{
   font-size: 30px;
